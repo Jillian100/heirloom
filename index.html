@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>富壽康悠考 - 傳統養生智慧傳承計畫</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Microsoft JhengHei', 'PingFang TC', 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            background: white;
+            border-radius: 20px;
+            padding: 60px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .header {
+            margin-bottom: 50px;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            color: #2F4F4F;
+            margin-bottom: 20px;
+            background: linear-gradient(45deg, #DAA520, #CD5C5C);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .header .subtitle {
+            font-size: 1.3rem;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .header .tagline {
+            font-size: 1rem;
+            color: #888;
+        }
+
+        .navigation {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .nav-card {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 15px;
+            padding: 30px;
+            border-left: 5px solid #DAA520;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .nav-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+        }
+
+        .nav-card h3 {
+            color: #2F4F4F;
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+
+        .nav-card p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .nav-card .btn {
+            display: inline-block;
+            background: linear-gradient(45deg, #2F4F4F, #1a2f2f);
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .nav-card .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .nav-card.primary .btn {
+            background: linear-gradient(45deg, #DAA520, #CD5C5C);
+        }
+
+        .footer {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 2px solid #e9ecef;
+            color: #666;
+        }
+
+        .footer h4 {
+            color: #2F4F4F;
+            margin-bottom: 15px;
+        }
+
+        .footer p {
+            margin-bottom: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 40px 30px;
+            }
+            
+            .header h1 {
+                font-size: 2.2rem;
+            }
+            
+            .navigation {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>富壽康悠考</h1>
+            <div class="subtitle">傳統養生智慧傳承計畫</div>
+            <div class="tagline">傳統智慧 × 現代生活 × 身心靈平衡</div>
+        </div>
+
+        <div class="navigation">
+            <a href="富壽康悠考展示網頁.html" class="nav-card primary">
+                <h3>📚 完整課程介紹</h3>
+                <p>查看完整的課程內容、講師介紹、財務規劃、執行時程等詳細資訊。這是主要的展示頁面，包含所有課程相關的完整資訊。</p>
+                <span class="btn">查看完整介紹</span>
+            </a>
+
+            <a href="課程宣傳海報.html" class="nav-card">
+                <h3>🎨 課程宣傳海報</h3>
+                <p>查看精美的課程宣傳海報設計，適合用於社群媒體分享、列印宣傳或展示使用。包含課程核心概念與視覺設計。</p>
+                <span class="btn">查看宣傳海報</span>
+            </a>
+        </div>
+
+        <div class="footer">
+            <h4>👨‍🏫 恩澤堂 彭繼祖老師</h4>
+            <p>台北市恩澤堂創辦人暨首席講師</p>
+            <p>專精於《黃帝內經》、《傷寒論》等經典醫籍</p>
+            <p>20年傳統養生智慧教學經驗</p>
+        </div>
+    </div>
+</body>
+</html>
